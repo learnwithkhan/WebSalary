@@ -1,0 +1,35 @@
+﻿
+@model WebSalary.ViewModels.EmpFinalSalary
+
+
+<h3> Calculated Salary for  @Html.DisplayFor(model => model.emp_name) </h3>
+
+<dl class="dl-horizontal">
+    <dt>
+
+        <h6>Employee ID:</h6>
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.emp_id)
+    </dd>
+
+    <dt>
+        <h6>Additions:</h6>
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.additions)
+    </dd>
+
+
+    <dt>
+        <h6>Final Monthly Salary:</h6>
+    </dt>
+
+    <dd>
+        @Html.DisplayFor(model => model.Finalvalues)
+    </dd>
+
+</dl>
+

@@ -16,6 +16,7 @@ namespace WebSalary.Controllers
 
         public ActionResult About()
         {
+            //It is not required as we do not 
             ViewBag.Message = "Your application description page.";
 
             return View();

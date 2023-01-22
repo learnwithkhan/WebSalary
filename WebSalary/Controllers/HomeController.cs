@@ -11,7 +11,7 @@ namespace WebSalary.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return View(); //dfsfaasfsfasd
         }
 
         public ActionResult About()
